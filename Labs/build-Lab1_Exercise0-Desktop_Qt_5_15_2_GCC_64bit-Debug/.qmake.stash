@@ -1,0 +1,27 @@
+QMAKE_CXX.QT_COMPILER_STDCXX = 201703L
+QMAKE_CXX.QMAKE_GCC_MAJOR_VERSION = 11
+QMAKE_CXX.QMAKE_GCC_MINOR_VERSION = 2
+QMAKE_CXX.QMAKE_GCC_PATCH_VERSION = 0
+QMAKE_CXX.COMPILER_MACROS = \
+    QT_COMPILER_STDCXX \
+    QMAKE_GCC_MAJOR_VERSION \
+    QMAKE_GCC_MINOR_VERSION \
+    QMAKE_GCC_PATCH_VERSION
+QMAKE_CXX.INCDIRS = \
+    /uollinapps/AppsData/spack/opt/spack/linux-rhel8-x86_64/gcc-8.4.1/gcc-11.2.0-3zqpmsstnyrl6y4c245dezyowbzpfpx5/include/c++/11.2.0 \
+    /uollinapps/AppsData/spack/opt/spack/linux-rhel8-x86_64/gcc-8.4.1/gcc-11.2.0-3zqpmsstnyrl6y4c245dezyowbzpfpx5/include/c++/11.2.0/x86_64-pc-linux-gnu \
+    /uollinapps/AppsData/spack/opt/spack/linux-rhel8-x86_64/gcc-8.4.1/gcc-11.2.0-3zqpmsstnyrl6y4c245dezyowbzpfpx5/include/c++/11.2.0/backward \
+    /uollinapps/AppsData/spack/opt/spack/linux-rhel8-x86_64/gcc-8.4.1/gcc-11.2.0-3zqpmsstnyrl6y4c245dezyowbzpfpx5/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include \
+    /uollinapps/AppsData/spack/opt/spack/linux-rhel8-x86_64/gcc-8.4.1/gcc-11.2.0-3zqpmsstnyrl6y4c245dezyowbzpfpx5/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include-fixed \
+    /usr/local/include \
+    /uollinapps/AppsData/spack/opt/spack/linux-rhel8-x86_64/gcc-8.4.1/gcc-11.2.0-3zqpmsstnyrl6y4c245dezyowbzpfpx5/include \
+    /usr/include
+QMAKE_CXX.LIBDIRS = \
+    /uollinapps/AppsData/spack/opt/spack/linux-rhel8-x86_64/gcc-8.4.1/gcc-11.2.0-3zqpmsstnyrl6y4c245dezyowbzpfpx5/lib/gcc/x86_64-pc-linux-gnu/11.2.0 \
+    /uollinapps/AppsData/spack/opt/spack/linux-rhel8-x86_64/gcc-8.4.1/gcc-11.2.0-3zqpmsstnyrl6y4c245dezyowbzpfpx5/lib/gcc \
+    /uollinapps/AppsData/spack/opt/spack/linux-rhel8-x86_64/gcc-8.4.1/gcc-11.2.0-3zqpmsstnyrl6y4c245dezyowbzpfpx5/lib64 \
+    /lib64 \
+    /usr/lib64 \
+    /uollinapps/AppsData/spack/opt/spack/linux-rhel8-x86_64/gcc-8.4.1/gcc-11.2.0-3zqpmsstnyrl6y4c245dezyowbzpfpx5/lib \
+    /lib \
+    /usr/lib
